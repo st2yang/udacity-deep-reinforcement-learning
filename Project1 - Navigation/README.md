@@ -32,7 +32,16 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `Project1 - Navigation/` folder, and unzip (or decompress) the file. 
+2. Unzip (or decompress) the file, and modify the path of the `Banana` app in Navigation.ipynb.
+
+3. Install the dependencies according to `environment.yml`. If you're using conda, you just need to run the following commands
+    ```
+    conda create --name drl_p1 python=3.6
+    conda activate drl_p1
+    pip install unityagents
+    conda install pytorch=0.4.0 -c pytorch
+    ```
+4. Launch a notebook in the created `drl_p1` environment.
 
 ### Instructions
 
