@@ -17,6 +17,19 @@ and train the actor by maximizing expected Q values:
 
 <img src="./assets/equation2.png" width=250>
 
+## Models and Hyperparameters
+Both actor and critic are three-layer fully connected networks, with RELU as activation function. The hyperparameters used in training are as follows
+
+| Hyperparameter                      | Value |
+| ----------------------------------- | ----- |
+| BUFFER_SIZE                         | 1e5   |
+| BATCH_SIZE                          | 128   |
+| GAMMA                               | 0.99  |
+| TAU                                 | 1e-3  |
+| LR_Actor                            | 1e-4  |
+| LR_CRITIC                           | 1e-4  |
+
+
 ## Results
 We solve the task in 100 episodes. A plot of score (the average reward over 100 episodes) is included below. 
 
