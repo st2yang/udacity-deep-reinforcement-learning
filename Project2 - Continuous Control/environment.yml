@@ -1,4 +1,4 @@
-name: drl_p1
+name: drl_p2
 channels:
   - pytorch
   - defaults
@@ -112,5 +112,5 @@ dependencies:
     - werkzeug==1.0.0
     - widgetsnbextension==3.5.1
     - zipp==3.1.0
-prefix: /opt/anaconda3/envs/drl_p1
+prefix: /opt/anaconda3/envs/drl_p2
 

@@ -1,6 +1,6 @@
 # Project 1: Navigation
 
-In this project, we exploit deep Q-learning to navigate an agent in a large, square world. 
+In this project, we exploit [deep Q-learning (DQN)](https://www.nature.com/articles/nature14236) to navigate an agent in a large, square world. 
 The goal of the agent is to collect as many yellow bananas (reward: +1) as possible while avoiding blue bananas (reward: -1).
 The state space has 37 dimensions, with which the agent has to learn how to best select one out of four discrete actions.
 
