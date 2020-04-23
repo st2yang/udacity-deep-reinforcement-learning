@@ -7,7 +7,8 @@
 
 ![Trained Agents][image1]
 
-This repository contains my solutions to exercises and projects of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.  
+This repository contains my solutions to exercises and projects of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
+The original repository can be found [here](https://github.com/udacity/deep-reinforcement-learning).
 
 ## Table of Contents
 
@@ -25,7 +26,8 @@ The exercises lead us through implementing various algorithms in reinforcement l
 * [Cross-Entropy Method](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/3.%20Policy-Based%20Methods/cross-entropy): Use the cross-entropy method to train a car to navigate a steep hill.
 * [REINFORCE](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/3.%20Policy-Based%20Methods/reinforce): Learn how to use Monte Carlo Policy Gradients to solve a classic control task.
 * [Proximal Policy Optimization](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/3.%20Policy-Based%20Methods/ppo): Use PPO to train an agent to play Pong Game.
-
+* [AlphaZero](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/4.%20Multi-Agent%20Reinforcement%20Learning/alpha0): Case study of AlphaZero in the TicTacToe Game.
+* [Multi-Agent Deep Deterministic Policy Gradient](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/4.%20Multi-Agent%20Reinforcement%20Learning/maddpg): Learn MADDPG to train several agents to solve the Physical Deception problem.
 
 ### Projects
 
@@ -33,3 +35,4 @@ The projects can be found below.  All of the projects use rich simulation enviro
 
 * [Navigation](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/Project1%20-%20Navigation): In the first project, we train an agent to collect yellow bananas while avoiding blue bananas.
 * [Continuous Control](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/Project2%20-%20Continuous%20Control): In the second project, we train a robotic arm to reach target locations.
+* [Collaboration and Competition](https://github.com/st2yang/udacity-deep-reinforcement-learning/tree/master/Project3%20-%20Collaboration%20and%20Competition): In the third project, we train a pair of agents to play tennis.
